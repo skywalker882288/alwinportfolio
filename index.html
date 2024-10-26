@@ -18,6 +18,7 @@
               
               
         </header>
+
         <section class="home">
             <div class="home-img">
                 <img src="alwin.png" alt="Alwin's Picture">
@@ -174,7 +175,7 @@
             
             <div class="one">
                 <div class="project-img">
-                    <img src="project1.jpg" alt="Aquagenix water extraction device">
+                    <img src="project1.png" alt="Aquagenix water extraction device">
                 </div>
                 <div class="project-content">
                     <h1>AQUAGENIX</h1>
@@ -243,10 +244,10 @@
                 <div class="content">
                   <p class="card-heading">Achievements
                   </p><p class="para">
-                    Competitions you've won or participated in (e.g., hackathons, engineering contests).
-                    Key project milestones (e.g., successfully building Aquagenix or launching your Falcon-XR3000).
+                    Achieved first prize for idea completition conducted as per of IETE students day jointly organized by IETE kochi centre
+                    and KMEA Engineering college.
                   </p>
-                  <button class="btn">Read more</button>
+                  <a href="#" id="seeMoreBtn1" class="project-btn">See more</a>
                 </div>
             </div>
 
@@ -254,9 +255,10 @@
                 <div class="content">
                   <p class="card-heading">Certifications & Training
                   </p><p class="para">
-                    got certificates based on completion of vlsi design.
+                    VLSI design using verilog HDL conducted by Asap maven silicon in 2024
+                    
                   </p>
-                  <button class="btn">Read more</button>
+                  <a href="#" id="seeMoreBtn1" class="project-btn">See more</a>
                 </div>
             </div>
 
@@ -264,9 +266,9 @@
                 <div class="content">
                   <p class="card-heading">Blog
                   </p><p class="para">
-                    Intrested in story posting.stoies can be viewde in the insta page.
+                    Intrested in story posting.stoies can be viewed in the insta page.
                   </p>
-                  <button class="btn">Read more</button>
+                  <a href="#" id="seeMoreBtn1" class="project-btn">See more</a>
                 </div>
             </div>
           </div>
@@ -318,5 +320,13 @@
               </div>
               
         </section>
+        <script>
+            var checkbox = document.querySelector(".toggle input[type='checkbox']");
+            checkbox.onclick = function() {
+                document.body.classList.toggle("dark-theme");
+            };
+        </script>
+        
     </body>
+    
 </html>
